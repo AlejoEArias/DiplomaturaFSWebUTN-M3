@@ -1,0 +1,185 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: rgba(189, 155, 4, 0.959);
+    padding: 20px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+nav{
+    background-color: rgba(255, 208, 0, 0.938);
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    background-color: darkred;
+    color: darkgoldenrod;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    clear: both;
+}
+
+nav ul li a.activo{
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 400;
+}
+
+/* inicio del home */
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.valoraciones{
+    width: 25%;
+}
+
+.columna{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.valoracion{
+    background-color: darkred;
+    padding: 16px;
+}
+
+.valoracion .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.valoracion .cliente{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+/* fin del home */
+/* inicio de nosotros */
+
+.historia p{
+    font-size: 12px;
+}
+
+.persona{
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona img{
+    max-width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5, .persona h6{
+    margin: 10px;
+    font-weight: normal;
+    color: darkgoldenrod;
+}
+
+.persona p{
+    font-size: 10px;
+}
+/* fin de nosotros */
+
+/* inicio de productos */
+
+.productos{
+    border: 2px darkgoldenrod solid;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    gap: 32px;
+    align-items: center;
+    display: flex;
+}
+
+.productos h4{
+    font-weight: 500;
+    font-style: italic;
+    color: darkgoldenrod;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgoldenrod;
+}
+
+.productos .info p{
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.productos img{
+    border-radius: 10px;
+    display: block;
+    max-width: 225px;
+}
+
+.productos:nth-child(even) {
+    flex-direction: row-reverse;
+}
+/* fin de productos */
