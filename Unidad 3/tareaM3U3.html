@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea M3U3</title>
+</head>
+
+<body>
+
+
+    <script type="text/javascript">
+
+        let distanciaARecorrer = Number(prompt("Ingrese distancia a recorrer"))
+
+        if (distanciaARecorrer > 0 && distanciaARecorrer < 1000) {
+            console.log("Caminaras");
+
+        } else if (distanciaARecorrer >= 1000 && distanciaARecorrer < 10000) {
+            console.log("Irás en Bicicleta");
+        } else if (distanciaARecorrer >= 10000 && distanciaARecorrer < 30000) {
+            console.log("Irás en Colectivo");
+        } else if (distanciaARecorrer >= 30000 && distanciaARecorrer < 100000) {
+            console.log("Irás en Auto");
+        } else if (distanciaARecorrer >= 100000) {
+            console.log("Irás en Avión");
+        } else {
+            console.log("Ingrese un valor mayor que 0");
+        }
+
+        const numeros = [1, 20, 30, 4]
+
+        for (let i = 0; i < numeros.length; i++) {
+            
+            if (numeros[0]>numeros[1] && numeros[0]>numeros[2] && numeros[0]>numeros[3]) {
+                console.log("El número de mayor valor es " + numeros[0]);
+            }else if (numeros[1]>numeros[2] && numeros[1]>numeros[3]){
+                console.log("El número de mayor valor es " + numeros[1]);
+            }else if (numeros[2]>numeros[3]){
+                console.log("El número de mayor valor es " + numeros[2]);
+            }else{
+                console.log("El número de mayor valor es " + numeros[3]);
+            }
+            
+        }
+
+
+    </script>
+</body>
+
+</html>
