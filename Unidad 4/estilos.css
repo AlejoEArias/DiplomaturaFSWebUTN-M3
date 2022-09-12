@@ -1,0 +1,30 @@
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.boton-rojo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: none;
+}
+.boton-verde{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: none;
+}
+.boton-azul{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: none;
+}
